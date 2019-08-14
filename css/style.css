@@ -1,89 +1,86 @@
-body,html
-{
-/*
+body,
+html {
+    
     width: 100%;
     height: 100%;
-*/
+
     margin: 0%;
     font-family: 'Poppins', sans-serif;
     background: #ffd9b0;
     color: white;
     line-height: 1.8;
 }
-*
-{
+
+* {
     box-sizing: border-box;
-  
-    
+
+
 }
-input,button
-{
-    border: none;
-}
-.head
-{
+
+.head {
     padding: 115px 0;
     position: relative;
 }
-.container
-{
+
+.container {
     width: 1150px;
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
+    background-color: #111; 
 }
-.image-sec
-{
+
+.image-sec {
     width: 58.33%;
     float: left;
     margin-bottom: -8px;
 }
-.image-sec img
-{
+
+.image-sec img {
     width: 100%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    
-}
-.form-sec
-{
-   width: 41.67%;
-    float: left;
-    background: #111;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    
- 
-}
-form
-{
-    padding: 70px;
 
 }
-.book
-{
+
+.form-sec {
+    width: 41.67%;
+    float: left;
+/*    padding-bottom: 9px;*/
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+form {
+    padding: 72px 70px 70px 72px;
+
+}
+
+.book {
     font-weight: bold;
     font-size: 21px;
     text-align: center;
     margin-bottom: 28px;
     display: block;
-    
-    
+
+
 }
-.group-common
-{
+
+.group-common {
     margin-bottom: 10px;
-     position: relative;
-    
+    position: relative;
+
 }
-.input-data
-{
+
+.input-data {
     padding-top: 21px;
-   
+
 }
-input[type="text"]
-{
-    box-sizing: border-box;
+
+input{
     width: 100%;
     display: block;
     border: none;
@@ -91,18 +88,103 @@ input[type="text"]
     border-bottom: 1px solid #999;
     padding: 4px 0;
 }
-.comm-label
-{
+
+.comm-label {
     position: absolute;
     left: 0;
     top: 17px;
     color: #bebebe;
-    
+
 }
-.items
-{
-    position: relative;
+
+.items {
+
     display: inline-block;
     width: 100%;
-    margin-bottom: 47px;
+    border-bottom: 1px solid #999;
+    padding-top: 21px;
+
+
+
+}
+
+.select-css {
+    display: block;
+    background: transparent;
+    color: #bebebe;
+    font-size: 16px;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+
+}
+.radio-text
+{
+    margin-bottom: 65px;
+    padding-top: 20px;
+    width: 100%;
+
+}
+.text-label
+{
+   padding-top: 4px;
+    margin-bottom: 18px;
+    display: block;
+}
+.radio-list
+{
+    width: 100%;
+
+
+}
+.radio-span
+{
+   display: inline-block;
+}
+.radio-text input
+{
+    width: 0;
+    height: 0;
+/*
+    position: absolute;
+    left: -9999px;
+*/
+}
+.radio-text input+label
+{
+    display: inline-block;
+    border: 2px solid #ebebeb;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    color: #888;
+    font-weight: 600;
+    margin: 0 3px;
+    border-radius: 50%;
+    padding-top: 3px;
+}
+.form-button
+{
+    width: 100%;
+}
+input[type="submit"]
+{
+    width: auto;
+    background-color: #edb77d;
+    color: white;
+    font-weight: 800;
+    padding: 15px 43px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.verify
+{
+  text-decoration: none;
+    font-size: 11px;
+    
+    margin-top: 14px;
+    color: #edb77d;
+    display: block;  
 }

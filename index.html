@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="head">
         <div class="container">
@@ -16,19 +17,73 @@
                 <form action="">
                     <h2 class="book">Booking place for your dinner!</h2>
                     <div class="group-common input-data">
-                       <input type="text" name="name">
-                       <label for="name" class="comm-label">Your name</label> 
+                        <input type="text" name="name">
+                        <label for="name" class="comm-label">Your name</label>
                     </div>
                     <div class="group-common input-data">
-                       <input type="text" name="name">
-                       <label for="name" class="comm-label">Your phone number</label> 
+                        <input type="text" name="name">
+                        <label for="name" class="comm-label">Your phone number</label>
                     </div>
                     <div class="group-common">
-                        <div class="items"></div>
+                        <div class="items">
+                            <select class="select-css">
+                                <option>Time</option>
+                                <option>6:00 PM</option>
+                                <option>7:00 PM</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="group-common">
+                        <div class="items">
+                            <select class="select-css">
+                                <option>Food</option>
+                                <option>Seasonal fruits</option>
+                                <option>Cheif special</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="radio-text">
+                        <label class="text-label"> Select Your Dining Space</label>
+                        <div class="radio-list">
+                            <span class="radio-span">
+                                <input type="radio" value="2" name="no-people">
+                                <label for="">2</label>
+                            </span>
+                       
+                    
+                            <span class="radio-span">
+                                <input type="radio" value="2" name="no-people">
+                                <label for="">4</label>
+                            </span>
+            
+                    
+                            <span class="radio-span">
+                                <input type="radio" value="2" name="no-people">
+                                <label for="">6</label>
+                            </span>
+        
+                        
+                            <span class="radio-span">
+                                <input type="radio" value="2" name="no-people">
+                                <label for="">8</label>
+                            </span>
+                    
+                        
+                            <span class="radio-span">
+                                <input type="radio" value="2" name="no-people">
+                                <label for="">10</label>
+                            </span>
+                 </div>
+                    </div>
+                    <div class="form-button">
+                        <input type="submit" value="Book now" name="submit">
+                        <a href="" class="verify">Verify your booking info from your phone</a>
                     </div>
                 </form>
             </div>
-            
+
         </div>
     </div>
 </body>
